@@ -1,4 +1,6 @@
 ### Hi there 👋
+[https://img.shields.io/badge/telegram-blue](https://t.me/nikolya_7)  
+[https://img.shields.io/badge/email-green?label=nickigna610@gmail.com](mailto:nickigna610@gmail.com)
 ```kotlin
 import CourseKind.*
 import TechnologyKind.*
