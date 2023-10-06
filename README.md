@@ -5,6 +5,7 @@ import CourseKind.*
 import TechnologyKind.*
 
 object Me: Employee, Student {
+
     override fun currentWorkPlace(): String = "Lipt Soft"
 
     override fun position(): String = "Full-stack developer"
