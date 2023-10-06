@@ -27,20 +27,6 @@ object Me: Employee, Student {
     override fun currentUniversity(): String = "ITMO university"
 
     override fun year(): Int = 4
-
-    override fun relevantCourses() = mapOf(
-        PROGRAMMING to listOf(
-            "C++ advanced", "Rust", "Git", "Algorithms and Data Structures",
-            "Unix", "Computer Architecture and Operating Systems",
-            "Functional Programming (Haskell)", "Bioinformatics",
-            "Translation methods", "Python", "Java advanced", "Databases",
-            "Networks", "Machine learning",
-        ),
-        MATH to listOf(
-            "Calculus", "Analysis", "Linear Algebra",
-            "Group Theory", "Graph Theory", "Combinatorics",
-            "Mathematical Logic", "Coding theory"
-        ))
 }
 
 enum class TechnologyKind {
@@ -71,7 +57,6 @@ sealed interface Employee {
 sealed interface Student {
     fun currentUniversity(): String
     fun year(): Int
-    fun relevantCourses(): Map<CourseKind, List<String>>
 }
 ```
 
