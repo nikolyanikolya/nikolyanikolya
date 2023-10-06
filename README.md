@@ -10,7 +10,7 @@ object Me: Employee, Student {
 
     override fun experience(): String = "1.25 years"
 
-    override fun ````technologies & tools````(): Map<TechnologyKind, List<String>> = mapOf(
+    override fun ``technologies & tools``(): Map<TechnologyKind, List<String>> = mapOf(
         LANGUAGE to listOf("Kotlin/Java", "HTML", "CSS", "Javascript"),
         TESTING to listOf("Mockito", "JUnit5", "Selenide", "Jasmine", "SonarQube"),
         DATABASE to listOf("Oracle", "H2", "PostgreSQL"),
@@ -63,7 +63,7 @@ enum class CourseKind {
 sealed interface Employee {
     fun currentWorkPlace(): String
     fun position(): String
-    fun ````technologies & tools````(): Map<TechnologyKind, List<String>>
+    fun ``technologies & tools``(): Map<TechnologyKind, List<String>>
     fun experience(): String
 }
 
