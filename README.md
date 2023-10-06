@@ -1,5 +1,5 @@
 ### Hi there 👋
-[![Telegram Nikolay](https://img.shields.io/badge/telegram-blue)](https://t.me/nikolya_7) [![Email Nikolay](https://img.shields.io/badge/email-green?label=nickigna610@gmail.com)](mailto:nickigna610@gmail.com)
+[![Telegram Nikolay](https://img.shields.io/badge/telegram-blue)](https://t.me/nikolya_7)[![Email Nikolay](https://img.shields.io/badge/email-green?label=nickigna610@gmail.com)](mailto:nickigna610@gmail.com)
 ```kotlin
 import CourseKind.*
 import TechnologyKind.*
