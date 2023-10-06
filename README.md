@@ -45,11 +45,6 @@ enum class TechnologyKind {
     OTHER
 }
 
-enum class CourseKind {
-    MATH,
-    PROGRAMMING
-}
-
 sealed interface Employee {
     fun currentWorkPlace(): String
     fun position(): String
