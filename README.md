@@ -1,5 +1,5 @@
 ### Hi there! I am Nikolay Ignatov 
-- 👨🏻‍🎓 Fourth year CT ITMO student  
+- 👨🏻‍🎓 CT ITMO Bachelor of science in applied mathematics and computer science  
 - 👨‍💻 Full-stack developer at Lipt Soft  
 - 📄 My CV: [CV](https://github.com/nikolyanikolya/CV/blob/main/CV_SE.pdf)   
 
