@@ -1,7 +1,7 @@
 ### Hi there! I am Nikolay Ignatov 
 - 👨🏻‍🎓 Fourth year CT ITMO student  
 - 👨‍💻 Full-stack developer at Lipt Soft  
-- 📄 My CV: [CV](https://github.com/nikolyanikolya/CV/blob/main/CV_for_backend.pdf)   
+- 📄 My CV: [CV](https://github.com/nikolyanikolya/CV/blob/main/CV_SE.pdf)   
 
 [![Telegram Nikolay](https://img.shields.io/badge/telegram-blue)](https://t.me/nikolya_7) [![Email Nikolay](https://img.shields.io/badge/email-green?label=nickigna610@gmail.com)](mailto:nickigna610@gmail.com)
 ```kotlin
