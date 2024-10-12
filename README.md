@@ -7,13 +7,13 @@
 ```kotlin
 import TechnologyKind.*
 
-object Me: Employee, Student {
+object Me: Employee, Bachelor {
 
     override fun currentWorkPlace(): String = "Lipt Soft"
 
     override fun position(): String = "Full-stack developer"
 
-    override fun experience(): String = "1.25 years"
+    override fun experience(): String = "2 years"
 
     override fun `technologies & tools`(): Map<TechnologyKind, List<String>> = mapOf(
         LANGUAGE to listOf("Kotlin/Java", "HTML", "CSS", "Javascript"),
@@ -28,9 +28,9 @@ object Me: Employee, Student {
         OTHER to listOf("Kafka", "Git", "Bash")
     )
 
-    override fun currentUniversity(): String = "ITMO university"
+    override fun specialization(): String = "Applied mathematics and computer science"
 
-    override fun year(): Int = 4
+    override fun university(): String = "ITMO"
 }
 
 enum class TechnologyKind {
@@ -53,9 +53,9 @@ sealed interface Employee {
     fun experience(): String
 }
 
-sealed interface Student {
-    fun currentUniversity(): String
-    fun year(): Int
+sealed interface Bachelor {
+    fun specialization(): String
+    fun university(): String
 }
 ```
 
